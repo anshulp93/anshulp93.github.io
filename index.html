@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Anshul's Webpage</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Anshul Purohit</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Internships and Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#contactme">Contact Me</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#contact"></a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="introduction" class="introduction-section">
+        
+             
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container">
+                    <br> <br> <br> <br>
+                    <h1>About Me</h1>
+                    <img src="img/anshul.jpg" style="float: center" height="250" width="250">
+                        <br>
+                        <br>
+                        <br>
+                        <ul>
+                        <li>Hi! I am Anshul Purohit. Currently in the final year of the under-graduate course at IIT-Bombay. I am majoring in the Computer Science and Engineering Department. I am also pursuing honors in CSE and minor in Management Science.</li><br>
+                        <li>I have done research projects in the fields of static analysis of programs and power-performance trade-offs in networked applciation and mobile networks. I have also worked on several course projects based on Operation Systems, Compilers,Computer Architecture, Databases etc. I have done internships at Microsoft IDC, TU-Braunschweig and Soulflower.
+                        <!--Currently working on performing inter-procedural heap-reference analysis of concurrent JAVA programs. Also working on an RnD project to validate the power prediction of PowerPerfCenter tool. More details in the research section. <br> <br>-->
+                        Apart for that, I am interested in economics, finance and love travelling.</li><br>
+
+                        <li> You can find my CV <a href="CV.pdf">here</a></li>
+                        </ul>
+                        <br><br><br><br>
+                    
+                    <!-- <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>-->
+                    <!-- <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>-->
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br> <br>
+                    <h1>Research Projects</h1>
+                    <h4>Broad Areas</h4> 
+                    <ul>
+                    I have done research (RnD) projects in primararily two fields:
+                    <li>    
+                    First is the field of static program analysis. This is part of the compilers and programming languages. I have been working on designing and implementing interprocedural static analysis on concurrent programs.  
+                    </li>
+                    <li>
+                    I have also worked in the field of performance analysis of distributed networked applications. One of my project involves understading the power performance trade-offs of networked applications. I have also worked on the problem of cell outage compensation in mobile networks (simulation), which also has power-performance tradeoffs. 
+                    </li>
+                    </ul>
+                    <h4>Research Experience</h4>
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> July 2014-Ongoing </p> </i>
+                    </div>-->
+                    <b> <p> Heap Reference Analysis for Concurrent Programs</b> <br>
+                    Undergraduate Thesis under Prof. Uday Khedkar, IIT-Bombay </p>
+                    <ul>
+                        <li> Working on understanding program analysis techniques for concurrent programs. Final aim is to implement heap reference analysis for concurrent programs. The analysis should be static and inter-procedural. </li>
+                        <li> Currently understanding the mechanism to perform data flow analysis for non-racy concurrent programs. Need to integrate this with the SOOT framework to perform data flow analysis for Java. </li>
+                        <li> Also working on implementing inter-procedural analysis in SOOT. This requires the use of Context Sensitivity using value contexts (VASCO) for carrying out analysis. 
+                        </li>
+                        <li> Would need to use VASCO on concurrent programs to implement a heap reference analysis , which is liveness analysis followed by points to analysis on the input program.     
+                        </li>
+                    </ul>
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> January 2014-Ongoing </p> </i>
+                    </div>-->
+                    <b> <p> Understanding the power-performance of networked applications. </b> <br>
+                    Research & Development Project under Prof. Varsha Apte, IIT-Bombay </p>
+                    <ul>
+                        <li> Performing validation of the model to estimate the expected power consumption of a networked application. </li>
+                        <li>Main goal is to design experiments on a server cluster and measure the power consumption. This need to be matched with the PowerPerfCenter tool, whose model is to be validated. Also studying the dependence between the operating frequency of a CPU, CPU utilization and the average power consumed. </li>
+                        <li> Currently, experimenting by generating different levels of load for a simple web-calendar application hosted on a 8-core machine. Also performed benchmarking on machines to confirm the linear dependence of power consumed with utilization for a fixed operating CPU frequency.</li>
+                    </ul>
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> May - June 2013 </p> </i>
+                    </div>-->
+                    <b> <p> Cell Outage Compensation </b> <br>
+                    TU-Braunschweig, Germany, Guided by Prof. Thomas Kuerner </p>
+                    <ul>
+                    <li>
+                        Worked on current research problems in self-organizing networks (SON), particularly algorithms for the use case cell-outage compensation in 4th generation cellular networks.
+                    </li> 
+                    <li> Prototyped the algorithms in the MATLAB-based simulation platform SiMoNe. Compensation of outage would autonomously be achieved by optimally changing the control parameters iteratively.
+                    </li>
+                    <li>Also observed a power-performance trade-off in the situation of an outage. High power is required in the neighbouring cells to improve performance in the cell in outage. Presented the results in a colloquium at the institute</li>   
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br> <br>
+                    <h1>Course and Internship Projects</h1>
+                    
+
+                    <!-- <div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> June 2012 </p> </i>
+                    </div> -->
+                    <b>  Microsoft IDC  | Summer Internship Project, Guide: Amit Gupta, Principal Dev Lead, STCI </b> 
+                    <ul>
+                        <li> Added features to the Bing Local results tool Dailymetrics, like searching, email
+                    notifications, authentication and check-in issues.
+                        </li> 
+                        <li> Worked on multiple Microsoft technologies like SQL Server, Azure Cloud Services, ADFS
+                    login system, ASP.NET framework and MVC web applications. </li>
+                        <li> Focused on end to end development of the multi-tier features in the tool, from database level
+                    to final web deployment. </li> 
+                    </ul>
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> January-April 2013 </p> </i>
+                    </div>-->
+                    <b> Virtual Memory Management | Prof. Dhananjay Dhamdhere </b>
+                    <ul>
+                        <li> Implemented a <b> virtual memory</b> manager for a simplified operating system running on top of Linux. Simulated the operation of a virtual memory manager in a simplified OS running on Linux.
+                    The memory allocation scheme was paged and non-contiguous.
+                        <li> Implemented page-in, page-out operations involving memory, swap space of processes, mechanisms to allocate non-contiguous pages, TLB cache and second chance page replacement policy (clock algorithm).
+                    </ul>
+
+
+                    <!-- <div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> July-November 2013 </p> </i>
+                    </div> -->
+                    <b> SoulFlower | Winter Internship </b>    
+                    <ul>
+                    <li> Developed a web application to boost sales by suggesting products to consumer in the store. Classification according to the different customer preferences and product ranges. </li>
+                    <li> App was developed in HTML5/JS and also available in Android. Targeted to also train new staff regarding the different types of products. </li>     
+                    </ul>  
+
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> July - November 2013 </p> </i>
+                    </div>-->
+<b> Buffer Overflow Attack | Prof. Bernard Menezes </b> 
+<ul>
+     <li> Analysed the activation record of functions in the stack map and used the vulnerability of
+strcpy in which it writes past the allocated memory of the array. </li>
+     <li> Used strcpy to load shellcode and modify the return address to execute the malicious code
+to kill all the process and restart. </li>  
+</ul>   
+
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> July - November 2012</p> </i>
+                    </div> -->
+<b> Artificial Intelligence | Prof. Pushpak Bhattacharya </b>    
+<ul>
+    <li> Implemented a Neural Network to train and classify twitter sentiments. </li>
+    <li> A* search algorithm implementation on 8-puzzle problem to find optimal solution to goal.</li>
+    <li> Developed syntactic theorem prover for theorems in Hilbert’s propositional calculus. </li>
+    <li> Delivered a seminar on Turing’s Test and recent related developments like CAPTCHA.</li>
+</ul>   
+
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> January-April 2013 </p> </i>
+                    </div>-->
+<b>Checkers | Prof. Amitabha Sanyal </b>
+<ul>
+    <li> Developed mini Artificial Intelligence engine which implemented the Mini-Max algorithm
+and Alpha-Beta pruning to decide the optimum move given a board position. </li>
+    <li> Abstractions and functional language features like higher-order functions were used. </li>
+</ul>   
+
+
+                <b>Stock Exchange Portal | Prof Umesh Bellur  </b> 
+                <ul>
+                    <li> Developed a portal for buying and selling stock using JSP, PostgreSQL and JDBC. </li>
+                    <li> Users can place orders and transaction will take place depending on the price and the
+availability. Used features like SQL-transactions and scheduler for handling DB backend.</li>
+                </ul>
+
+                    <!--<div style="float: right; clear: right; margin: 10px;">
+                        <i> <p> January-April 2012 </p> </i>
+                    </div> -->
+<b>Ping Pong | Prof. Ashwin Gumaste </b> 
+<ul>
+    <li> Designed the ping pong game logic and finite state machine in VHDL. </li>
+    <li> Executed the game on Xilinx Spartan 6 FPGA with HDMI output interface for display.</li>
+</ul>   
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contactme" class="contactme-section">
+        <div class="container">
+            <div class="row">
+                    
+                <div class="col-lg-12" align="center">
+                    <h1>Contact Me</h1>
+                    Anshul Purohit <br>
+                    Room 148, H-5 <br>
+                    IIT Bombay, Powai, Mumbai <br>
+                    400076 India <br>
+                    Phone : (+91) 8879385750 <br>
+                    Email : <a href="mailto:anshulp93@gmail.com"> anshulp93@gmail.com</a>,
+                            <a href="mailto:anshulp@iitb.ac.in"> anshulp@iitb.ac.in</a>,
+                            <a href="mailto:anshulp@cse.iitb.ac.in"> anshulp@cse.iitb.ac.in</a> <br>
+                    Facebook : <a href="https://www.facebook.com/anshul.purohit.5"> Anshul Purohit </a>  <br>
+                    Find my Resume <a href="Resume_Anshul.pdf"> here </a>. <br><br>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h4 align="center"> Bootstrap template <a href="http://startbootstrap.com/template-overviews/scrolling-nav/"> Scrolling Nav </a>  used, also thanks to <a href="http://www.cse.iitb.ac.in/~sskausik"> Kausik </a> for the idea. </h4>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
+
